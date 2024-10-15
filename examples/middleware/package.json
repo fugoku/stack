@@ -3,9 +3,9 @@
   "version": "2.6.8",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 8112",
-    "build": "next build",
-    "start": "next start --port 8112",
+    "dev": "node init && next dev --port 8112",
+    "build": "node init && next build",
+    "start": "node init && next start --port 8112",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
   },
