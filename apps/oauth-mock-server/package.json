@@ -4,8 +4,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "tsx src/index.ts",
-    "dev": "tsx watch --clear-screen=false src/index.ts",
+    "start": "node init && tsx src/index.ts",
+    "dev": "node init && tsx watch --clear-screen=false src/index.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
